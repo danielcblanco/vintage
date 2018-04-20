@@ -270,6 +270,7 @@ body .wrap-body {
     font-size: 30px;
     text-align: center;
     color: #fff;
+    margin-top: 250px;
 }
 
 #intro span {
@@ -292,7 +293,7 @@ body .wrap-body {
     text-decoration: inherit;
     font-size: 16px;
     margin: 0 30px;
-    top: -5px;
+    top: -100px;
    
 }
 
@@ -307,9 +308,8 @@ body .wrap-body {
 }
 
 .cabecera img {
-    margin-bottom: -40px;
-    height: px;
-    width: 100px;
+    margin-bottom: -250px;
+    width: 150px;
 
     
     
@@ -321,9 +321,9 @@ body .wrap-body {
     color: #332F2E;
     font-family: "PT Sans", sans-serif;
     font-weight: 700;
-    font-size: 16px;
+    font-size: 20px;
     text-transform: uppercase;
-    margin: 70px 0 0;
+    margin-top: 25%;
     position: relative;
     letter-spacing: 6px;
 }
@@ -383,6 +383,7 @@ body .wrap-body {
         font-size: 14px;
         margin: 60px 0 0;
         letter-spacing: 4px;
+        
     }
     .line-3:before,
     .line-3:after {
@@ -435,17 +436,23 @@ body .wrap-body {
 @media(max-width:500px) {
     #intro {
         width: 250px;
+       
     }
     .line-1 {
         font-size: 17px;
+    }
+     }
+    .cabecera img {
+        margin-top: -25%;
+        margin-bottom: -20px;
     }
     .line-2 {
         font-size: 50px;
         letter-spacing: 8px;
     }
     .line-3 {
-        font-size: 12px;
-        margin: 40px 0 0;
+        font-size: 16px;
+        margin: 80px -100px;
         letter-spacing: 3px;
     }
     .line-3:before,
@@ -836,6 +843,10 @@ article.single-post .entry-content {
 
 article .entry-content p {
     color: #686868;
+    font-size: 20px;
+    margin-left: -25%;
+    margin-right: -25%;
+    text-align: justify;
 }
 
 article .entry-content blockquote {
@@ -848,11 +859,12 @@ article .entry-content blockquote {
 
 article .entry-content ol {
     text-align: justify;
-    margin: 10px 50px;
+    margin: 10px 10px;
     list-style-type: circle;
+    font-size: 20px;
 }
 article .entry-content h2 {
-    font-size: 20px;
+    font-size: 30px;
     text-align: center;
     }
 .comments-are {
@@ -1572,11 +1584,15 @@ footer .contact-form .form-group label {
 }
 
 .flex-box .box-text .box-text-inner p {
-    font-size: 18px;
+    font-size: 25px;
     font-weight: 300;
     color: #000;
 }
-
+.flex-box .box-text .box-text-inner b {
+    font-size: 40px;
+    font-weight: 300;
+    color: #000;
+}
 .flex-box .box-text .title {}
 
 .flex-box .box-text .title h3 {
