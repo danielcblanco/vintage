@@ -844,8 +844,8 @@ article.single-post .entry-content {
 article .entry-content p {
     color: #686868;
     font-size: 20px;
-    margin-left: -25%;
-    margin-right: -25%;
+    margin-left: -15%;
+    margin-right: -15%;
     text-align: justify;
 }
 
@@ -891,6 +891,8 @@ article .entry-content h2 {
     article.single-post .entry-content {
         padding: 10px 30px;
         font-size: 14px;
+        margin-right: 20px;
+        margin-left: 20px;
     }
     article .entry-content p {}
     article .entry-content blockquote {
